@@ -8,7 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "main": "#EC5B26"
+      },
       backgroundImage: {
+        'header': "url('/assets/banner.jpg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
